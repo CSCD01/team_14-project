@@ -1,3 +1,4 @@
+# @@ -1,21 +1,50 @@
 import pandas as pd
 
 # author: William Song
@@ -35,6 +36,7 @@ print("\n================================\n")
 def populationDensity (row):
     return row["population"] / row["area"]
 
+brics['density'] = brics.apply (lambda row: populationDensity(row), axis=1)
 # we'll add a density column and apply this population density to every row
 # (don't worry about axis for now)
 brics["density"] = brics.apply (lambda row: populationDensity(row), axis=1)
@@ -44,7 +46,10 @@ print(brics)
 print("\n================================\n")
 
 # finding the maximum density value (mdv)
-maximum = brics["density"].argmax()
+maximum_index = brics["density"].idxmax()
+
+# get the location of the mdv index in the density column
+maximum_loc = brics.index.get_loc(maximum_index)
 
 # printing the country name (denoted with the 0) with the mdv
-print("The BRICS country with the highest population density is: " + brics.iloc[maximum , 0])
+print("The BRICS country with the highest population density is: " + brics.iloc[maximum_loc , 0])
