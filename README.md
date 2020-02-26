@@ -1,4 +1,7 @@
 # The Best D01 Team Around
 
-## Deliverable 0
-Please use the following link to view our deliverable: https://d01.julesyan.com
+## Deliverables
+All our deliverables are hosted at https://d01-team14.netlify.com/
+
+### Note
+We moved it to a separate repository because we do not have admin access to enable continuous deployment directly on this repository
