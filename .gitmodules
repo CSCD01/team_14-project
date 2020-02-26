@@ -1,0 +1,3 @@
+[submodule "cscd01-website"]
+	path = cscd01-website
+	url = git@github.com:hoangbn/cscd01-website.git
