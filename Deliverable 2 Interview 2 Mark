@@ -1,0 +1,37 @@
+D2:
+
+Bug Intro: 10/10
+
+Choice of Bugs: 5/5
+
+Correctness: 25/25
+
+Documentation: 10/10
+
+Test Suite: 2/10 - There is a difference between Unit test (though all cases are covered) and acceptance test, in your D2, acceptance tests are not provided
+
+Software Process: 25/25 
+
+Presentation: 15/15
+
+Total: 92/100
+
+
+
+I2:
+
+Summary: 0.5/1 - bugs not explained well/ reasons are not clear
+
+demo1: 0/2 - demo fails
+
+explain1: 0.5/1 - solution not explained well
+
+test1: 1/2 - testing not working well 
+
+demo2: 2/2 - worked but should be more prepared
+
+software process: 2/2 
+
+bonus: 1/1
+
+Total: 7/10
